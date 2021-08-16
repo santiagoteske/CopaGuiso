@@ -1,0 +1,100 @@
+#btnCorredor {
+	-fx-background-color: #0466c8;
+	-fx-text-fill:white;
+}
+
+#btnCorredor:hover{    
+  
+  -fx-background-color: #0353a4;
+  -fx-font-weight:bold 
+}
+
+#btnRegistrarse{
+	-fx-background-color:#002855;
+}
+
+#btnRegistrarse:hover{
+	-fx-background-color: #002855;
+	-fx-text-fill:white;
+	-fx-font-weight:bold
+}
+
+
+.btnMenu{
+	-fx-background-color: #023e7d;
+}
+
+
+.btnMenu:hover{     
+  -fx-background-color: #001845;
+  -fx-text-fill:white;
+  -fx-font-weight:bold;
+  -fx-font-size: 18.0px
+}
+
+.btnMenu:focused{
+	-fx-background-color: #5c677d ;
+	-fx-text-fill:white;
+}
+
+.btnMenuPresionado{
+	-fx-background-color: #5c677d ;
+	-fx-text-fill:white;
+}
+
+
+.fondoCentral{	
+	-fx-background-color: #5c677d;	
+}
+
+
+.tabla {
+	-fx-background-color: #979dac;
+}
+
+.btnGestion:hover {
+	-fx-background-color: #023e7d;
+}
+
+.btnGestion {
+	-fx-background-color: #0353a4;
+}
+
+
+.btnEliminar:hover {
+	-fx-background-color: #660708;
+}
+
+.btnEliminar {
+	-fx-background-color: #ba181b;
+}
+
+.ventanasModales {
+	-fx-background-color: #33415c;	
+}
+
+
+.guardarModal:hover{
+	-fx-background-color: #023e7d;
+}
+
+.eliminarModal:hover{
+	-fx-background-color: #660708;
+}
+
+.guardarModal{
+	-fx-background-color: #0353a4;
+}
+
+.eliminarModal{
+	-fx-background-color: #ba181b;
+}
+
+.botonOscuro{
+	-fx-background-color: #33415c;
+}
+
+.botonOscuro:hover{
+	-fx-background-color: #001233;
+}
+

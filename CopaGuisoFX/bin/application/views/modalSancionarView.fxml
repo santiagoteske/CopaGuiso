@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="400.0" prefWidth="600.0" styleClass="ventanasModales" stylesheets="@MainCSS.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controllers.GestionarCorredoresController">
+   <children>
+      <Label layoutX="34.0" layoutY="31.0" prefHeight="50.0" prefWidth="258.0" text="Sancionar corredor" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="108.0" prefHeight="26.0" prefWidth="116.0" text="Nombre :" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnGuardarNuevoCorredor" layoutX="466.0" layoutY="332.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="99.0" styleClass="guardarModal" stylesheets="@MainCSS.css" text="Sancionar" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnVolverNuevoCorredor" layoutX="344.0" layoutY="332.0" mnemonicParsing="false" onAction="#botonCerrarModal" prefHeight="41.0" prefWidth="99.0" styleClass="eliminarModal" stylesheets="@MainCSS.css" text="Cancelar" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="40.0" layoutY="168.0" prefHeight="26.0" prefWidth="116.0" text="Sanción:" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="22.0" />
+         </font>
+      </Label>
+      <ChoiceBox layoutX="152.0" layoutY="169.0" prefHeight="25.0" prefWidth="244.0" />
+      <Label layoutX="40.0" layoutY="223.0" prefHeight="26.0" prefWidth="116.0" text="Motivo:" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="22.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="152.0" layoutY="223.0" prefHeight="80.0" prefWidth="384.0" />
+      <ChoiceBox layoutX="152.0" layoutY="109.0" prefHeight="25.0" prefWidth="244.0" />
+   </children>
+</Pane>

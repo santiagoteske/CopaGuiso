@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="650.0" prefWidth="550.0" styleClass="ventanasModales" stylesheets="@MainCSS.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controllers.GestionarCorredoresController">
+   <children>
+      <Label alignment="CENTER" layoutY="14.0" prefHeight="50.0" prefWidth="550.0" text="Protocolo para manejar usuarios HOST" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnVolverNuevaCategoria" layoutX="226.0" layoutY="585.0" mnemonicParsing="false" onAction="#botonCerrarModal" prefHeight="41.0" prefWidth="99.0" styleClass="eliminarModal" stylesheets="@MainCSS.css" text="Volver" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

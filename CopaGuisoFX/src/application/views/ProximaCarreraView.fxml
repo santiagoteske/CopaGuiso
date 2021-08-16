@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<Pane prefHeight="700.0" prefWidth="940.0" styleClass="fondoCentral" stylesheets="@MainCSS.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controllers.ProximaCarreraController">
+   <children>
+      <Label layoutX="24.0" layoutY="24.0" prefHeight="42.0" prefWidth="288.0" text="Proxima carrera" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="658.0" layoutY="17.0" prefHeight="42.0" prefWidth="143.0" text="Sanciones" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="83.0" prefHeight="42.0" prefWidth="143.0" text="Categoría:" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="24.0" />
+         </font>
+      </Label>
+      <ChoiceBox layoutX="149.0" layoutY="92.0" prefHeight="25.0" prefWidth="168.0" />
+      <TableView layoutX="510.0" layoutY="71.0" prefHeight="277.0" prefWidth="421.0">
+        <columns>
+          <TableColumn prefWidth="93.60003662109375" text="Nombre" />
+          <TableColumn prefWidth="104.0" text="Sanción" />
+            <TableColumn prefWidth="255.199951171875" text="Motivo" />
+        </columns>
+      </TableView>
+      <Label layoutX="24.0" layoutY="148.0" prefHeight="25.0" prefWidth="75.0" text="Fecha:" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="110.0" layoutY="148.0" prefHeight="25.0" prefWidth="107.0" text="10/12/2021" textFill="#001233">
+         <font>
+            <Font name="SansSerif Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="184.0" prefHeight="25.0" prefWidth="99.0" text="Circuito:" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="115.0" layoutY="184.0" prefHeight="25.0" prefWidth="205.0" text="Singapur" textFill="#001233">
+         <font>
+            <Font name="SansSerif Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="220.0" prefHeight="25.0" prefWidth="192.0" text="Récord del circuito:" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="218.0" layoutY="220.0" prefHeight="25.0" prefWidth="118.0" text="Cerreciete" textFill="#001233">
+         <font>
+            <Font name="SansSerif Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="336.0" layoutY="220.0" prefHeight="25.0" prefWidth="28.0" text="=&gt;" textFill="#001233">
+         <font>
+            <Font name="SansSerif Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="367.0" layoutY="220.0" prefHeight="25.0" prefWidth="83.0" text="1:111:11" textFill="#001233">
+         <font>
+            <Font name="SansSerif Bold" size="20.0" />
+         </font>
+      </Label>
+      <Pane layoutX="23.0" layoutY="253.0" prefHeight="222.0" prefWidth="477.0" style="-fx-background-color: #7d8597;">
+         <children>
+            <TableView layoutX="14.0" layoutY="53.0" prefHeight="157.0" prefWidth="158.0">
+              <columns>
+                <TableColumn editable="false" prefWidth="34.39999198913574" text="Pos." />
+                <TableColumn prefWidth="122.4000015258789" text="Nombre" />
+              </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+            <Label layoutX="332.0" layoutY="120.0" prefHeight="25.0" prefWidth="143.0" text="Cerreciete" textFill="#001233">
+               <font>
+                  <Font name="SansSerif Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="275.0" layoutY="145.0" prefHeight="25.0" prefWidth="83.0" text="1:111:11" textFill="#001233">
+               <font>
+                  <Font name="SansSerif Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="196.0" layoutY="120.0" prefHeight="25.0" prefWidth="125.0" text="Vuelta rápida:" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="194.0" layoutY="53.0" prefHeight="25.0" prefWidth="125.0" text="Pole:" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="194.0" layoutY="185.0" prefHeight="25.0" prefWidth="125.0" text="Guiso point:" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="246.0" layoutY="53.0" prefHeight="25.0" prefWidth="118.0" text="Cerreciete" textFill="#001233">
+               <font>
+                  <Font name="SansSerif Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="275.0" layoutY="78.0" prefHeight="25.0" prefWidth="83.0" text="1:111:11" textFill="#001233">
+               <font>
+                  <Font name="SansSerif Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="316.0" layoutY="185.0" prefHeight="25.0" prefWidth="118.0" text="Cerreciete" textFill="#001233">
+               <font>
+                  <Font name="SansSerif Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="16.0" prefHeight="25.0" prefWidth="192.0" text="Últimos resultados:" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="195.0" layoutY="78.0" prefHeight="25.0" prefWidth="75.0" text="Tiempo:" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold Italic" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="194.0" layoutY="145.0" prefHeight="25.0" prefWidth="75.0" text="Tiempo:" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold Italic" size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <WebView fx:id="webImagen" layoutX="510.0" layoutY="388.0" prefHeight="277.0" prefWidth="421.0" />
+      <Label layoutX="24.0" layoutY="483.0" prefHeight="32.0" prefWidth="232.0" text="Recomendaciones:" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="23.0" layoutY="515.0" opacity="0.76" prefHeight="165.0" prefWidth="470.0" text="- Extremar precauciones en la primer curva&#10;- Blabalalbablablablabla&#10;- asdfdsfsdkjsdhjfkjsdhkfs&#10;- lalalalalalalalalalalalal&#10;alaadfjgkñldfkgñldfkñld&#10;fkgñldkfgñldfkgñlfdkñgd&#10;fñgldfkñgldfkñglkdfñgld&#10;fkñglkdfñglkdfñlgkdfñlgk&#10;dfñlgkñdflkgñdfkgñdfkgñd&#10;lfkgñldfkgñdflkgñdflkgñdf&#10;lkgñdflkgñdfkgñdflkgñdflkg&#10;ñldfkgñldfkgfñd&#10;">
+         <font>
+            <Font name="SansSerif Regular" size="18.0" />
+         </font>
+      </TextArea>
+   </children>
+</Pane>

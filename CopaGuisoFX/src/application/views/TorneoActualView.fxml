@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="700.0" prefWidth="940.0" styleClass="fondoCentral" stylesheets="@MainCSS.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView layoutX="5.0" layoutY="93.0" prefHeight="583.0" prefWidth="928.0" styleClass="tabla" stylesheets="@MainCSS.css">
+        <columns>
+          <TableColumn prefWidth="59.19999313354492" text="Posicion" />
+          <TableColumn prefWidth="110.13330078125" text="Nombre" />
+            <TableColumn prefWidth="64.26667785644531" text="Puntos" />
+            <TableColumn prefWidth="56.533294677734375" text="Victorias" />
+            <TableColumn prefWidth="58.666656494140625" text="Podios" />
+            <TableColumn prefWidth="50.933258056640625" text="Poles" />
+            <TableColumn prefWidth="127.20001220703125" text="Vueltas rápidas" />
+            <TableColumn prefWidth="76.26666259765625" text="Guiso points" />
+            <TableColumn prefWidth="108.800048828125" text="Amonestaciones" />
+            <TableColumn prefWidth="75.0" text="Variación" />
+            <TableColumn prefWidth="136.0" text="Ultimo resultado" />
+        </columns>
+      </TableView>
+      <Label layoutX="24.0" layoutY="44.0" prefHeight="27.0" prefWidth="170.0" text="2º edición" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold Italic" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="254.0" layoutY="49.0" prefHeight="17.0" prefWidth="158.0" text="Categoría:" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="506.0" layoutY="49.0" prefHeight="17.0" prefWidth="94.0" text="Circuito:" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="22.0" />
+         </font>
+      </Label>
+      <ChoiceBox layoutX="377.0" layoutY="50.0" prefWidth="71.0" />
+      <ChoiceBox layoutX="616.0" layoutY="50.0" prefHeight="25.0" prefWidth="197.0" />
+   </children>
+</Pane>

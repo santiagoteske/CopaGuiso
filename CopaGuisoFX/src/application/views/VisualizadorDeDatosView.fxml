@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="700.0" prefWidth="940.0" styleClass="fondoCentral" stylesheets="@MainCSS.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ComboBox layoutX="26.0" layoutY="14.0" prefHeight="33.0" prefWidth="889.0" />
+      <TableView layoutX="26.0" layoutY="94.0" prefHeight="308.0" prefWidth="178.0">
+        <columns>
+          <TableColumn prefWidth="36.79998779296875" text="Pos" />
+          <TableColumn prefWidth="99.99999618530273" text="Nombre" />
+            <TableColumn prefWidth="37.600006103515625" text="Cant." />
+        </columns>
+      </TableView>
+      <Pane layoutX="237.0" layoutY="94.0" prefHeight="535.0" prefWidth="678.0" style="-fx-background-color: #7d8597;">
+         <children>
+            <BarChart layoutX="-3.0" layoutY="38.0" prefHeight="496.0" prefWidth="685.0">
+              <xAxis>
+                <CategoryAxis side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis side="LEFT" />
+              </yAxis>
+            </BarChart>
+         </children></Pane>
+   </children>
+</Pane>

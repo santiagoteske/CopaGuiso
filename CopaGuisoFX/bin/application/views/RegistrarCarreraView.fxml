@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="700.0" prefWidth="940.0" styleClass="fondoCentral" stylesheets="@MainCSS.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controllers.RegistrarCarreraController">
+   <children>
+      <Label layoutX="14.0" layoutY="26.0" text="Categoría" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="90.0" text="Resultados" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="150.0" text="1º" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="185.0" text="2º" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="219.0" text="3º" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="253.0" text="4º" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="289.0" text="5º" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="325.0" text="6º" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="359.0" text="7º" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="394.0" text="8º" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="427.0" text="9º" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="462.0" text="10º" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="24.0" />
+         </font>
+      </Label>
+      <ChoiceBox layoutX="166.0" layoutY="30.0" prefHeight="25.0" prefWidth="160.0" />
+      <ComboBox layoutX="55.0" layoutY="151.0" prefHeight="25.0" prefWidth="183.0" promptText="Nombre del corredor" />
+      <ComboBox layoutX="55.0" layoutY="186.0" prefHeight="25.0" prefWidth="183.0" promptText="Nombre del corredor" />
+      <ComboBox layoutX="55.0" layoutY="221.0" prefHeight="25.0" prefWidth="183.0" promptText="Nombre del corredor" />
+      <ComboBox layoutX="55.0" layoutY="257.0" prefHeight="25.0" prefWidth="183.0" promptText="Nombre del corredor" />
+      <ComboBox layoutX="55.0" layoutY="291.0" prefHeight="25.0" prefWidth="183.0" promptText="Nombre del corredor" />
+      <ComboBox layoutX="55.0" layoutY="326.0" prefHeight="25.0" prefWidth="183.0" promptText="Nombre del corredor" />
+      <ComboBox layoutX="55.0" layoutY="361.0" prefHeight="25.0" prefWidth="183.0" promptText="Nombre del corredor" />
+      <ComboBox layoutX="55.0" layoutY="395.0" prefHeight="25.0" prefWidth="183.0" promptText="Nombre del corredor" />
+      <ComboBox layoutX="55.0" layoutY="428.0" prefHeight="25.0" prefWidth="183.0" promptText="Nombre del corredor" />
+      <ComboBox layoutX="55.0" layoutY="463.0" prefHeight="25.0" prefWidth="183.0" promptText="Nombre del corredor" />
+      <Label layoutX="402.0" layoutY="27.0" text="Circuito" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="28.0" />
+         </font>
+      </Label>
+      <ChoiceBox layoutX="531.0" layoutY="31.0" prefHeight="25.0" prefWidth="160.0" />
+      <Pane layoutX="402.0" layoutY="99.0" prefHeight="268.0" prefWidth="452.0" style="-fx-background-color: #7d8597;">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" text="Modificar resultados anteriores" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="118.0" text="Categoría" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="26.0" />
+               </font>
+            </Label>
+            <ChoiceBox layoutX="166.0" layoutY="122.0" prefHeight="25.0" prefWidth="159.0" />
+            <Label layoutX="14.0" layoutY="168.0" text="Circuito" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="26.0" />
+               </font>
+            </Label>
+            <ChoiceBox layoutX="166.0" layoutY="171.0" prefHeight="25.0" prefWidth="159.0" />
+            <Label layoutX="14.0" layoutY="71.0" text="Edición" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="26.0" />
+               </font>
+            </Label>
+            <ChoiceBox layoutX="166.0" layoutY="74.0" prefHeight="25.0" prefWidth="159.0" />
+            <Button layoutX="337.0" layoutY="215.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="94.0" styleClass="btnMenu" stylesheets="@MainCSS.css" text="Cargar" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Button layoutX="788.0" layoutY="622.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="120.0" styleClass="btnMenu" stylesheets="@MainCSS.css" text="Guardar" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="396.0" layoutY="457.0" text="Pole:" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="24.0" />
+         </font>
+      </Label>
+      <ComboBox layoutX="477.0" layoutY="458.0" prefHeight="25.0" prefWidth="183.0" promptText="Nombre del corredor" />
+      <TextField layoutX="692.0" layoutY="458.0" prefHeight="25.0" prefWidth="35.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="701.0" layoutY="408.0" text="Tiempos" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold Italic" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="300.0" layoutY="495.0" text="Vuelta rápida:" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="24.0" />
+         </font>
+      </Label>
+      <ComboBox layoutX="477.0" layoutY="500.0" prefHeight="25.0" prefWidth="183.0" promptText="Nombre del corredor" />
+      <Label layoutX="314.0" layoutY="540.0" text="Guiso point:" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="24.0" />
+         </font>
+      </Label>
+      <ComboBox layoutX="477.0" layoutY="541.0" prefHeight="25.0" prefWidth="183.0" promptText="Nombre del corredor" />
+      <Button layoutX="473.0" layoutY="617.0" mnemonicParsing="false" onAction="#btnSancionar" styleClass="btnEliminar" stylesheets="@MainCSS.css" text="Sancionar" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="31.0" />
+         </font>
+      </Button>
+      <Label layoutX="731.0" layoutY="457.0" prefHeight="27.0" prefWidth="12.0" text=":" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="744.0" layoutY="458.0" prefHeight="25.0" prefWidth="52.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="801.0" layoutY="457.0" prefHeight="27.0" prefWidth="12.0" text=":" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="813.0" layoutY="458.0" prefHeight="25.0" prefWidth="35.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="692.0" layoutY="498.0" prefHeight="25.0" prefWidth="35.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="731.0" layoutY="497.0" prefHeight="27.0" prefWidth="12.0" text=":" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="744.0" layoutY="498.0" prefHeight="25.0" prefWidth="52.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="801.0" layoutY="497.0" prefHeight="27.0" prefWidth="12.0" text=":" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="813.0" layoutY="498.0" prefHeight="25.0" prefWidth="35.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <CheckBox layoutX="44.0" layoutY="592.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="219.0" text="Carrera en lluvia" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="22.0" />
+         </font>
+      </CheckBox>
+   </children>
+</Pane>

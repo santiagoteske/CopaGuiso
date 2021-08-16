@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="600.0" prefWidth="800.0" styleClass="ventanasModales" stylesheets="@MainCSS.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controllers.GestionarCorredoresController">
+   <children>
+      <Label layoutX="34.0" layoutY="14.0" prefHeight="50.0" prefWidth="258.0" text="Nueva Categoria " textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="97.0" prefHeight="26.0" prefWidth="116.0" text="Nombre :" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="22.0" />
+         </font>
+      </Label>
+      <TextField layoutX="149.0" layoutY="98.0" prefHeight="25.0" prefWidth="158.0" />
+      <Button fx:id="btnGuardarNuevaCategoria" layoutX="661.0" layoutY="530.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="99.0" styleClass="guardarModal" stylesheets="@MainCSS.css" text="Guardar" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnVolverNuevaCategoria" layoutX="531.0" layoutY="530.0" mnemonicParsing="false" onAction="#botonCerrarModal" prefHeight="41.0" prefWidth="99.0" styleClass="eliminarModal" stylesheets="@MainCSS.css" text="Volver" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="34.0" layoutY="177.0" prefHeight="26.0" prefWidth="193.0" text="Sistema de puntos:" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="224.0" prefHeight="26.0" prefWidth="25.0" text="1º" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="258.0" prefHeight="26.0" prefWidth="25.0" text="2º" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="291.0" prefHeight="26.0" prefWidth="25.0" text="3º" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="324.0" prefHeight="26.0" prefWidth="25.0" text="4º" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="358.0" prefHeight="26.0" prefWidth="25.0" text="5º" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="224.0" prefHeight="26.0" prefWidth="25.0" text="6º" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="257.0" prefHeight="26.0" prefWidth="25.0" text="7º" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="289.0" prefHeight="26.0" prefWidth="25.0" text="8º" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="324.0" prefHeight="26.0" prefWidth="25.0" text="9º" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="158.0" layoutY="357.0" prefHeight="26.0" prefWidth="35.0" text="10º" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="22.0" />
+         </font>
+      </Label>
+      <TextField layoutX="66.0" layoutY="225.0" prefHeight="25.0" prefWidth="57.0" />
+      <TextField layoutX="66.0" layoutY="258.0" prefHeight="25.0" prefWidth="57.0" />
+      <TextField layoutX="66.0" layoutY="292.0" prefHeight="25.0" prefWidth="57.0" />
+      <TextField layoutX="66.0" layoutY="325.0" prefHeight="25.0" prefWidth="57.0" />
+      <TextField layoutX="66.0" layoutY="359.0" prefHeight="25.0" prefWidth="57.0" />
+      <TextField layoutX="199.0" layoutY="225.0" prefHeight="25.0" prefWidth="57.0" />
+      <TextField layoutX="199.0" layoutY="258.0" prefHeight="25.0" prefWidth="57.0" />
+      <TextField layoutX="199.0" layoutY="292.0" prefHeight="25.0" prefWidth="57.0" />
+      <TextField layoutX="199.0" layoutY="325.0" prefHeight="25.0" prefWidth="57.0" />
+      <TextField layoutX="199.0" layoutY="359.0" prefHeight="25.0" prefWidth="57.0" />
+      <Label layoutX="445.0" layoutY="98.0" prefHeight="26.0" prefWidth="248.0" text="Sistema de sanciones:" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="413.0" prefHeight="26.0" prefWidth="147.0" text="Pole position :" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="22.0" />
+         </font>
+      </Label>
+      <TextField layoutX="181.0" layoutY="415.0" prefHeight="25.0" prefWidth="57.0" />
+      <Label layoutX="34.0" layoutY="456.0" prefHeight="26.0" prefWidth="147.0" text="Vuelta rápida:" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="22.0" />
+         </font>
+      </Label>
+      <TextField layoutX="181.0" layoutY="458.0" prefHeight="25.0" prefWidth="57.0" />
+      <Label layoutX="34.0" layoutY="495.0" prefHeight="26.0" prefWidth="147.0" text="Guiso point:" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="22.0" />
+         </font>
+      </Label>
+      <TextField layoutX="181.0" layoutY="498.0" prefHeight="25.0" prefWidth="57.0" />
+      <Label layoutX="316.0" layoutY="198.0" prefHeight="26.0" prefWidth="122.0" text="Advertencia" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="315.0" layoutY="232.0" prefHeight="26.0" prefWidth="122.0" text="Leve" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="315.0" layoutY="272.0" prefHeight="26.0" prefWidth="122.0" text="Media" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="315.0" layoutY="311.0" prefHeight="26.0" prefWidth="122.0" text="Grave" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="482.0" layoutY="164.0" prefHeight="26.0" prefWidth="57.0" text="Pena" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="581.0" layoutY="164.0" prefHeight="26.0" prefWidth="57.0" text="Cada" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="661.0" layoutY="164.0" prefHeight="26.0" prefWidth="122.0" text="Resulta en" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <ChoiceBox layoutX="585.0" layoutY="199.0" prefHeight="25.0" prefWidth="50.0" />
+      <ComboBox layoutX="656.0" layoutY="199.0" prefHeight="25.0" prefWidth="130.0" />
+      <Separator layoutX="287.0" layoutY="158.0" orientation="VERTICAL" prefHeight="397.0" prefWidth="0.0" />
+      <TextField layoutX="446.0" layoutY="199.0" prefHeight="25.0" prefWidth="122.0" />
+      <TextField layoutX="446.0" layoutY="235.0" prefHeight="25.0" prefWidth="122.0" />
+      <TextField layoutX="446.0" layoutY="274.0" prefHeight="25.0" prefWidth="122.0" />
+      <TextField layoutX="446.0" layoutY="313.0" prefHeight="25.0" prefWidth="122.0" />
+      <ChoiceBox layoutX="584.0" layoutY="235.0" prefHeight="25.0" prefWidth="50.0" />
+      <ChoiceBox layoutX="585.0" layoutY="273.0" prefHeight="25.0" prefWidth="50.0" />
+      <ChoiceBox layoutX="585.0" layoutY="312.0" prefHeight="25.0" prefWidth="50.0" />
+      <ComboBox layoutX="657.0" layoutY="235.0" prefHeight="25.0" prefWidth="130.0" />
+      <ComboBox layoutX="657.0" layoutY="271.0" prefHeight="25.0" prefWidth="130.0" />
+      <ComboBox layoutX="656.0" layoutY="313.0" prefHeight="25.0" prefWidth="130.0" />
+   </children>
+</Pane>
