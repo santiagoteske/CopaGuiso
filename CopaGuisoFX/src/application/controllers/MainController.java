@@ -69,7 +69,7 @@ public class MainController implements Initializable {
 
 		deshabilitarCampos();
 
-		archivo = new File("C:\\Users\\Santiago\\eclipse-workspace\\CopaGuiso\\CopaGuisoFX\\src\\media\\video.mp4");
+		archivo = new File("C:\\Users\\Santiago\\Documents\\GitHub\\CopaGuiso\\CopaGuisoFX\\src\\media\\video.mp4");
 		video = new Media(archivo.toURI().toString());
 		reproductor = new MediaPlayer(video);
 		visorVideo.setMediaPlayer(reproductor);
@@ -134,7 +134,7 @@ public class MainController implements Initializable {
 
 			scene = new Scene(root);
 			stage = new Stage();
-			Image icono = new Image("file:///C:/Users/Santiago/eclipse-workspace/CopaGuiso/CopaGuisoFX/src/media/guiso.png");
+			Image icono = new Image("file:///C:/Users/Santiago/Documents/GitHub/CopaGuiso/CopaGuisoFX/src/media/guiso.png");
 			stage.getIcons().add(icono);
 			stage.setTitle("Copa Guiso");
 			stage.setScene(scene);

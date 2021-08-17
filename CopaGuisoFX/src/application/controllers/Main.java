@@ -21,7 +21,7 @@ public class Main extends Application {
 			scene.getStylesheets().clear();
 			scene.getStylesheets().add(getClass().getResource("/application/views/MainCSS.css").toExternalForm());				
 			
-			Image icono = new Image("file:///C:/Users/Santiago/eclipse-workspace/CopaGuiso/CopaGuisoFX/src/media/guiso.png");
+			Image icono = new Image("file:///C:/Users/Santiago/Documents/GitHub/CopaGuiso/CopaGuisoFX/src/media/guiso.png");
 			stagePrincipal.getIcons().add(icono);
 			stagePrincipal.setTitle("Copa Guiso");
 			
